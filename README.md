@@ -5,6 +5,11 @@ It allows users to input their gender, height, weight, and age, then calculates 
 
 ---
 
+## 📱 demonstration
+
+![BMI Calculator Demo](assets/bmc_demo.gif)
+
+
 ## 📱 Features
 
 - Gender selection (male/female)
@@ -30,3 +35,36 @@ This project helped me understand and practice several core concepts of Flutter 
 
 ## 📂 Folder Structure
 
+lib/
+├── components/
+│   ├── content_icon.dart
+│   ├── low_button.dart
+│   ├── rounded_button.dart
+│   └── standard_card.dart
+├── screens/
+│   ├── mainscreen.dart
+│   └── result_screen.dart
+├── calc_imc.dart
+├── consts.dart
+└── main.dart
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter** (Dart)
+- **font_awesome_flutter** for icons
+- **Material Design** components
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
