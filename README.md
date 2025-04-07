@@ -35,6 +35,7 @@ This project helped me understand and practice several core concepts of Flutter 
 
 ## 📂 Folder Structure
 
+```
 lib/
 ├── components/
 │   ├── content_icon.dart
@@ -47,6 +48,7 @@ lib/
 ├── calc_imc.dart
 ├── consts.dart
 └── main.dart
+```
 
 
 ---
